@@ -5,6 +5,22 @@
     font-family:'Krona One', sans-serif;;
 }
 
+img {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    font-size: 50px;
+    text-align: center;
+}
 /* debug */
 
 
@@ -35,6 +51,8 @@
     position: fixed;
     top: 30px;
     right: 15px;
+    z-index: 2;
+    
 }
 
 .ancore li {
@@ -42,9 +60,14 @@
     margin-left: 30px;
     font-size: 20px;
     background-color: white;
+    text-shadow: black;
     border-radius: 50%;
     padding: 50px;
 
+}
+
+.box {
+    position:relative;
 }
 
 .box:nth-child(1) {
